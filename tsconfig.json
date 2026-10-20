@@ -2,16 +2,14 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    "baseUrl": ".",
+    "types": ["node"],
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
+    "**/*.tsx"
+, "app/register.jsx", "app/login.jsx", "app/index.jsx", "app/_layout.jsx", "app/(tabs)/profile.jsx", "app/(tabs)/index.jsx", "app/(tabs)/history.jsx", "app/(tabs)/fortune.jsx", "app/(tabs)/_layout.jsx", "constants/Colors.js", "hooks/use-color-scheme.js", "hooks/use-color-scheme.web.js", "hooks/use-theme-color.js", "context/UserContext.jsx", "components/themed-view.jsx", "components/themed-text.jsx", "components/GradientBg.jsx", "constants/theme.js"  ]
 }
