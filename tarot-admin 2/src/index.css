@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&family=Noto+Sans+Thai:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans Thai", "Inter", sans-serif;
+}
+
+::selection {
+  background: rgba(124, 92, 191, 0.25);
+}
